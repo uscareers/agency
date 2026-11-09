@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>US Careers — Recruiting Agency in the USA</title>
+  <title>US Careers | Recruiting Agency</title>
   <meta name="description" content="Apply for verified full-time, part-time, and remote careers across the United States. Partnered with Amazon, Walmart, FedEx, Tesla, Pepsi, Aldi, Netflix, and top healthcare & logistics employers." />
   <!-- Custom SVG Favicon for US Careers -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231e3a8a'/%3E%3Cstop offset='55%25' stop-color='%232563eb'/%3E%3Cstop offset='100%25' stop-color='%23059669'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Cpath d='M16 18v14c0 8.8 7.2 16 16 16s16-7.2 16-16V18h-7v14c0 5-4 9-9 9s-9-4-9-9V18h-7z' fill='%23ffffff'/%3E%3Cpath d='M32 10l3.2 6.5 7.2 1-5.2 5.1 1.2 7.1L32 26.3l-6.4 3.4 1.2-7.1-5.2-5.1 7.2-1L32 10z' fill='%23fbbf24'/%3E%3C/svg%3E" />
@@ -168,7 +168,7 @@
         location: "Ohio • Pennsylvania • North Carolina",
         salary: "$29.50 – $38.00 / hr",
         type: "Full-Time / Per Diem",
-        openPositions: 29,
+        openPositions: 25,
         badge: "Fast-Track Credentialing",
         benefits: ["Daily Pay Option", "Paid Time Off", "License Renewal Reimbursement"],
         postedAgo: "4 days ago",
@@ -684,51 +684,50 @@
   <header class="sticky top-0 z-40 glass-nav border-b border-slate-200/80 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
       <!-- Brand Logo -->
-      <button type="button" onclick="switchPage('home')" class="flex items-center gap-3 text-left group focus:outline-none">
-        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-900 via-blue-600 to-emerald-600 flex items-center justify-center shadow-md group-hover:scale-105 transition">
-          <svg class="w-7 h-7 text-white" viewBox="0 0 64 64" fill="none">
+      <button type="button" onclick="switchPage('home')" class="flex items-center gap-2 text-left group focus:outline-none shrink-0 whitespace-nowrap">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-900 via-blue-600 to-emerald-600 flex items-center justify-center shadow-md group-hover:scale-105 transition shrink-0">
+          <svg class="w-6 h-6 text-white" viewBox="0 0 64 64" fill="none">
             <path d="M16 18v14c0 8.8 7.2 16 16 16s16-7.2 16-16V18h-7v14c0 5-4 9-9 9s-9-4-9-9V18h-7z" fill="currentColor"/>
             <path d="M32 8l3.5 7 7.7 1.1-5.6 5.4 1.3 7.6L32 25.5l-6.9 3.6 1.3-7.6-5.6-5.4 7.7-1.1L32 8z" fill="#fbbf24"/>
           </svg>
         </div>
-        <div>
-          <div class="flex items-center gap-1.5">
-            <span class="text-xl sm:text-2xl font-black tracking-tight text-slate-900">US <span class="text-blue-600">Careers</span></span>
+        <div class="whitespace-nowrap">
+          <div class="flex items-center gap-1 whitespace-nowrap">
+            <span class="text-lg sm:text-xl font-black tracking-tight text-slate-900 whitespace-nowrap">US <span class="text-blue-600">Careers</span></span>
           </div>
-          <p class="text-[11px] text-slate-500 font-medium -mt-0.5">Hiring Network</p>
+          <p class="text-[10px] text-slate-500 font-medium -mt-0.5 whitespace-nowrap">Hiring Network</p>
         </div>
       </button>
 
       <!-- Desktop Menu -->
-      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
-        <button type="button" data-nav="home" onclick="switchPage('home')" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold transition text-blue-600 bg-blue-50">
+      <nav class="hidden lg:flex items-center gap-0.5 xl:gap-1 shrink-0 whitespace-nowrap">
+        <button type="button" data-nav="home" onclick="switchPage('home')" class="nav-btn px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition text-blue-600 bg-blue-50 whitespace-nowrap">
           Home
         </button>
-        <button type="button" data-nav="jobs" onclick="switchPage('jobs')" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 flex items-center gap-1.5">
-          Find Jobs
-          <span id="navJobCountBadge" class="text-[11px] font-bold px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-700">34</span>
+        <button type="button" data-nav="jobs" onclick="switchPage('jobs')" class="nav-btn px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 flex items-center gap-1 whitespace-nowrap">
+          Jobs
         </button>
-        <button type="button" data-nav="categories" onclick="switchPage('categories')" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100">
-          19 Categories
+        <button type="button" data-nav="categories" onclick="switchPage('categories')" class="nav-btn px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 whitespace-nowrap">
+          Categories
         </button>
-        <button type="button" data-nav="partners" onclick="switchPage('partners')" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100">
-          Start Career Partners
+        <button type="button" data-nav="partners" onclick="switchPage('partners')" class="nav-btn px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 whitespace-nowrap">
+          Career Partners
         </button>
-        <button type="button" data-nav="reviews" onclick="switchPage('reviews')" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 flex items-center gap-1">
+        <button type="button" data-nav="reviews" onclick="switchPage('reviews')" class="nav-btn px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 flex items-center gap-1 whitespace-nowrap">
           Reviews
-          <span class="text-[11px] font-bold px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800">2,723</span>
+          <span class="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800">2,723</span>
         </button>
-        <button type="button" data-nav="about" onclick="switchPage('about')" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100">
-          Why Trust Us & FAQ
+        <button type="button" data-nav="about" onclick="switchPage('about')" class="nav-btn px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-700 hover:text-blue-600 hover:bg-slate-100 whitespace-nowrap">
+          Trust & FAQ
         </button>
       </nav>
 
       <!-- Right CTA Buttons -->
-      <div class="hidden sm:flex items-center gap-2.5">
-        <button type="button" onclick="switchPage('jobs')" class="px-3.5 py-2 rounded-xl text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 transition flex items-center gap-1.5">
-          <span>🔍</span> Search 34 Roles
+      <div class="hidden sm:flex items-center gap-1.5 shrink-0 whitespace-nowrap">
+        <button type="button" onclick="switchPage('jobs')" class="hidden xl:flex px-2.5 py-2 rounded-xl text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 transition items-center gap-1 whitespace-nowrap">
+          <span>🔍</span> Search <span class="dyn-job-count">34</span> Roles
         </button>
-        <a href="https://araplhn.org/4/d95e2db27e8129bb1b0060906b9423b2" target="_blank" rel="noopener noreferrer" data-smartlink="true" class="px-4 py-2.5 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-md shadow-blue-500/20 transition flex items-center gap-1.5">
+        <a href="https://araplhn.org/4/d95e2db27e8129bb1b0060906b9423b2" target="_blank" rel="noopener noreferrer" data-smartlink="true" class="px-3.5 py-2 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-md shadow-blue-500/20 transition flex items-center gap-1.5 whitespace-nowrap">
           <span>🚀</span> Quick Apply Now
         </a>
       </div>
@@ -736,7 +735,7 @@
       <!-- Mobile Menu Trigger -->
       <div class="flex items-center gap-2 lg:hidden">
         <button type="button" onclick="switchPage('jobs')" class="px-2.5 py-2 rounded-lg text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
-          💼 34 Jobs
+          💼 <span class="dyn-job-count">34</span> Jobs
         </button>
         <button type="button" id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-2.5 rounded-xl text-slate-700 hover:bg-slate-100 border border-slate-200 focus:outline-none" aria-label="Open Menu">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -748,12 +747,12 @@
 
     <!-- Mobile Dropdown Navigation -->
     <div id="mobileMenuPanel" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-1.5 shadow-lg">
-      <button type="button" onclick="switchPage('home'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">🏠 Home Overview</button>
-      <button type="button" onclick="switchPage('jobs'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">💼 All 34 Job Listings (1,200+ Open Roles)</button>
-      <button type="button" onclick="switchPage('categories'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">📂 Browse 19 Job Categories</button>
-      <button type="button" onclick="switchPage('partners'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">🌟 Start Career (Walmart, Pepsi, Tesla, Aldi, Flex)</button>
-      <button type="button" onclick="switchPage('reviews'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">⭐ Candidate Reviews (2,723 Total / 130 Stories)</button>
-      <button type="button" onclick="switchPage('about'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">🛡️ Trust Center, Process & FAQ</button>
+      <button type="button" onclick="switchPage('home'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">Home</button>
+      <button type="button" onclick="switchPage('jobs'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">Job Listings</button>
+      <button type="button" onclick="switchPage('categories'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">Job Categories</button>
+      <button type="button" onclick="switchPage('partners'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">Career Partners</button>
+      <button type="button" onclick="switchPage('reviews'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">Candidate Reviews</button>
+      <button type="button" onclick="switchPage('about'); toggleMobileMenu(false);" class="w-full text-left px-3.5 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-blue-50 hover:text-blue-600">Trust Center, Process & FAQ</button>
       <div class="pt-2 flex flex-col gap-2">
         <a href="https://araplhn.org/4/d95e2db27e8129bb1b0060906b9423b2" target="_blank" rel="noopener noreferrer" data-smartlink="true" class="w-full text-center py-2.5 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-blue-600 to-emerald-600 shadow">
           ⚡ Instant Job Match
@@ -804,7 +803,7 @@
                   <div class="sm:col-span-4 flex items-center gap-2 bg-slate-50 px-3.5 py-2.5 rounded-xl border border-slate-200">
                     <svg class="w-5 h-5 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
                     <select id="heroCategorySelect" class="w-full bg-transparent text-sm font-semibold text-slate-700 focus:outline-none">
-                      <option value="ALL">All 19 Job Categories</option>
+                      <option value="ALL">All <span class="dyn-cat-count">19</span> Job Categories</option>
                     </select>
                   </div>
                   <div class="sm:col-span-3">
@@ -855,7 +854,7 @@
           <!-- Trust Metrics Strip -->
           <div class="mt-10 pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             <div class="bg-white/5 rounded-2xl p-4 border border-white/10">
-              <p class="text-2xl sm:text-3xl font-black text-amber-300">34</p>
+              <p class="text-2xl sm:text-3xl font-black text-amber-300" id="statActiveProgramsCount">34</p>
               <p class="text-xs sm:text-sm text-slate-300 font-medium mt-0.5">Active Job Programs</p>
             </div>
             <div class="bg-white/5 rounded-2xl p-4 border border-white/10">
@@ -878,12 +877,12 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
           <div>
-            <span class="text-xs font-extrabold uppercase tracking-widest text-blue-600">Explore All 19 Hiring Tracks</span>
+            <span class="text-xs font-extrabold uppercase tracking-widest text-blue-600">Explore All <span class="dyn-cat-count">19</span> Hiring Tracks</span>
             <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-1">Select Your Career Category to Apply</h2>
             <p class="text-sm text-slate-600 mt-1">Click any category below to filter open positions or launch direct application portal.</p>
           </div>
           <button type="button" onclick="switchPage('jobs')" class="self-start sm:self-auto px-4 py-2.5 rounded-xl bg-slate-900 text-white text-xs sm:text-sm font-bold hover:bg-blue-600 transition">
-            View All 34 Job Listings →
+            View All <span class="dyn-job-count">34</span> Job Listings →
           </button>
         </div>
 
@@ -920,10 +919,10 @@
           </div>
           <div class="flex items-center gap-2">
             <button type="button" onclick="switchPage('categories')" class="px-3.5 py-2 rounded-xl border border-slate-300 bg-white text-slate-700 text-xs font-bold hover:bg-slate-50 transition">
-              📂 19 Categories
+              📂 <span class="dyn-cat-count">19</span> Categories
             </button>
             <button type="button" onclick="switchPage('jobs')" class="px-4 py-2 rounded-xl bg-blue-600 text-white text-xs sm:text-sm font-bold hover:bg-blue-700 transition">
-              See All 34 Jobs →
+              See All <span class="dyn-job-count">34</span> Jobs →
             </button>
           </div>
         </div>
@@ -1024,7 +1023,7 @@
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div>
             <span class="text-xs font-bold uppercase tracking-widest text-emerald-400">Live Official Job Board • 34 Active Hiring Tracks</span>
-            <h1 class="text-2xl sm:text-4xl font-black mt-1">Browse All 34 Direct-Hire USA Job Listings</h1>
+            <h1 class="text-2xl sm:text-4xl font-black mt-1">Browse All <span class="dyn-job-count">34</span> Direct-Hire USA Job Listings</h1>
             <p class="text-slate-300 text-sm mt-1">
               Every position displays live open slots and opens its own dedicated application link when clicked.
             </p>
@@ -1099,7 +1098,7 @@
       <div class="bg-gradient-to-r from-blue-950 via-slate-900 to-emerald-950 text-white py-10 px-4">
         <div class="max-w-7xl mx-auto">
           <span class="text-xs font-bold uppercase tracking-widest text-amber-300">Complete 19-Category Recruiting Directory</span>
-          <h1 class="text-2xl sm:text-4xl font-black mt-1">All 19 High-Demand Job Categories in One Place</h1>
+          <h1 class="text-2xl sm:text-4xl font-black mt-1">All <span class="dyn-cat-count">19</span> High-Demand Job Categories in One Place</h1>
           <p class="text-slate-300 text-sm mt-1 max-w-2xl">
             Whether you want warehouse shifts, hospital nursing, commercial driving, food tasting, airport ground roles, or remote work from home — choose your category below.
           </p>
@@ -1375,9 +1374,17 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-10 border-b border-slate-800">
         <!-- Col 1 -->
         <div class="lg:col-span-2 space-y-3">
-          <div class="flex items-center gap-2.5">
-            <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-600 to-emerald-500 flex items-center justify-center text-white font-black text-base">U</div>
-            <span class="text-xl font-black text-white">US <span class="text-blue-400">Careers</span></span>
+          <div class="flex items-center gap-3">
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-900 via-blue-600 to-emerald-600 flex items-center justify-center shadow-md">
+              <svg class="w-7 h-7 text-white" viewBox="0 0 64 64" fill="none">
+                <path d="M16 18v14c0 8.8 7.2 16 16 16s16-7.2 16-16V18h-7v14c0 5-4 9-9 9s-9-4-9-9V18h-7z" fill="currentColor"/>
+                <path d="M32 8l3.5 7 7.7 1.1-5.6 5.4 1.3 7.6L32 25.5l-6.9 3.6 1.3-7.6-5.6-5.4 7.7-1.1L32 8z" fill="#fbbf24"/>
+              </svg>
+            </div>
+            <div>
+              <span class="text-xl sm:text-2xl font-black tracking-tight text-white">US <span class="text-blue-400">Careers</span></span>
+              <p class="text-[11px] text-slate-400 font-medium -mt-0.5">Hiring Network</p>
+            </div>
           </div>
           <p class="text-slate-400 leading-relaxed max-w-sm">
             America's trusted direct-hire recruiting and staffing platform connecting candidates with verified warehouse, healthcare, driving, corporate, and remote opportunities across all 50 states.
@@ -1387,6 +1394,18 @@
             <span class="px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-amber-300 font-semibold">★ 4.8/5 (2,723 Reviews)</span>
             <span class="px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-blue-300 font-semibold">🇺🇸 Equal Opportunity Employer</span>
           </div>
+
+<!-- =====================================================================
+       ADMIN PANEL
+  ====================================================================== 
+          <div class="pt-2">
+            <button type="button" onclick="openAdminPortal()" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-blue-950/80 text-slate-300 hover:text-white border border-slate-800 hover:border-blue-500/50 text-xs font-bold transition shadow-sm">
+              <span>🔐</span>
+              <span>Admin Control Panel</span>
+            </button>
+          </div>
+-->
+
         </div>
 
         <!-- Col 2 -->
@@ -1419,8 +1438,8 @@
         <div class="space-y-2">
           <h4 class="text-white font-bold uppercase tracking-wider text-xs mb-3">Quick Navigation</h4>
           <ul class="space-y-1.5">
-            <li><button type="button" onclick="switchPage('jobs')" class="hover:text-white transition">All 34 Job Listings</button></li>
-            <li><button type="button" onclick="switchPage('categories')" class="hover:text-white transition">All 19 Categories</button></li>
+            <li><button type="button" onclick="switchPage('jobs')" class="hover:text-white transition">All <span class="dyn-job-count">34</span> Job Listings</button></li>
+            <li><button type="button" onclick="switchPage('categories')" class="hover:text-white transition">All <span class="dyn-cat-count">19</span> Categories</button></li>
             <li><button type="button" onclick="switchPage('reviews')" class="hover:text-white transition">Candidate Reviews (2,723)</button></li>
             <li><button type="button" onclick="switchPage('partners')" class="hover:text-white transition">Fortune-500 Career Partners</button></li>
             <li><button type="button" onclick="switchPage('about')" class="hover:text-white transition">Trust Center & FAQ</button></li>
@@ -1439,31 +1458,304 @@
        MODAL 2: SUBMIT CANDIDATE REVIEW MODAL
   ====================================================================== -->
 
-  <!-- SECRET 3-CLICK ADMIN LINK MANAGER -->
-  <div id="linkManagerModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl border border-slate-200 overflow-hidden">
-      <div class="p-5 sm:p-6 bg-slate-900 text-white flex items-center justify-between">
-        <div>
-          <span class="text-[11px] font-bold uppercase tracking-widest text-amber-400">🔒 Secret Owner Link Manager (34 Jobs)</span>
-          <h3 class="text-lg sm:text-xl font-black mt-0.5">Change & Save All 34 Job Links Anytime</h3>
-        </div>
-        <button type="button" onclick="closeLinkManagerModal()" class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white">✕</button>
-      </div>
-      <div class="p-4 sm:p-6 overflow-y-auto custom-scrollbar space-y-5 flex-grow">
-        <div class="bg-blue-50 border border-blue-200 rounded-2xl p-4">
-          <label class="block text-xs font-extrabold uppercase tracking-wider text-blue-900 mb-1.5">Bulk Fill URL (সব জবে এক লিংক দিতে চাইলে):</label>
-          <div class="flex flex-col sm:flex-row gap-2">
-            <input id="bulkSmartlinkInput" type="url" class="flex-grow px-3.5 py-2 rounded-xl border border-blue-300 text-xs sm:text-sm font-medium focus:outline-none" value="https://araplhn.org/4/d95e2db27e8129bb1b0060906b9423b2" />
-            <button type="button" onclick="applyBulkLinkToAllJobs()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shrink-0 transition">Apply to All 34 Jobs</button>
+  <!-- =====================================================================
+       ADMIN LOGIN SECURITY MODAL + FULL ADMIN CMS DASHBOARD MODAL
+  ====================================================================== -->
+  <!-- 1) ADMIN SECURITY LOGIN POPUP -->
+  <div id="adminLoginModal" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full shadow-2xl border border-slate-200 overflow-hidden">
+      <div class="p-6 bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-2xl bg-blue-600/30 border border-blue-400/40 flex items-center justify-center text-xl">🔐</div>
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-400">Restricted Staff Access</span>
+            <h3 class="text-lg font-black">US Careers Admin Login</h3>
           </div>
         </div>
-        <div id="individualJobLinksContainer" class="space-y-3"></div>
+        <button type="button" onclick="closeAdminLoginModal()" class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white">✕</button>
       </div>
-      <div class="p-4 sm:p-5 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
-        <span id="linkSaveToast" class="text-xs font-bold text-emerald-600 hidden">✓ সব লিংক সাথে সাথে আপডেট ও সেভ হয়ে গেছে!</span>
+
+      <form onsubmit="handleAdminLoginSubmit(event)" class="p-6 space-y-4 text-sm">
+        <div id="adminLoginError" class="hidden p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-bold">
+          ❌ Invalid Username, Password, or Security Check! Please try again.
+        </div>
+
+        <div>
+          <label class="block text-xs font-extrabold uppercase tracking-wider text-slate-700 mb-1">Admin Username</label>
+          <input id="adminUserInp" type="text" required placeholder="Enter admin username" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 font-semibold text-slate-900 focus:outline-none focus:border-blue-600" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-extrabold uppercase tracking-wider text-slate-700 mb-1">Admin Password</label>
+          <div class="relative">
+            <input id="adminPassInp" type="password" required placeholder="Enter admin password" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 font-semibold text-slate-900 focus:outline-none focus:border-blue-600 pr-16" />
+            <button type="button" onclick="toggleAdminPassVis()" id="togglePassBtn" class="absolute right-2.5 top-1/2 -translate-y-1/2 text-[11px] font-bold text-blue-600 hover:underline px-2 py-1">Show</button>
+          </div>
+        </div>
+
+        <!-- Anti-Bot Security Verification Challenge -->
+        <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 flex items-center justify-between gap-3">
+          <div>
+            <span class="block text-[10px] font-extrabold uppercase tracking-wider text-slate-500">Security Check</span>
+            <span id="adminCaptchaQuestion" class="text-sm font-black text-slate-900">What is 7 + 5 ?</span>
+          </div>
+          <input id="adminCaptchaInp" type="number" required placeholder="Answer" class="w-24 px-3 py-2 rounded-xl border border-slate-300 text-center font-black text-slate-900 focus:outline-none focus:border-blue-600" />
+        </div>
+
+        <div class="pt-2 flex items-center justify-end gap-2">
+          <button type="button" onclick="closeAdminLoginModal()" class="px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold">Cancel</button>
+          <button type="submit" class="px-6 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs sm:text-sm font-black shadow-lg">
+            🔓 Verify & Enter Dashboard
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 2) FULL NO-CODE ADMIN CONTROL PANEL (JOBS, CATEGORIES, LINKS & SETTINGS) -->
+  <div id="linkManagerModal" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-2 sm:p-4">
+    <div class="bg-white rounded-3xl max-w-6xl w-full max-h-[94vh] flex flex-col shadow-2xl border border-slate-200 overflow-hidden">
+      <!-- Top Header -->
+      <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3 border-b border-slate-800">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center text-lg">⚙️</div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-[10px] font-extrabold uppercase tracking-widest px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">● Authenticated Admin</span>
+              <span id="adminHeaderStats" class="text-[11px] text-slate-400 font-semibold">34 Jobs • 19 Categories</span>
+            </div>
+            <h3 class="text-base sm:text-xl font-black mt-0.5">US Careers No-Code Admin Control Center</h3>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button type="button" onclick="adminLogout()" class="px-3 py-2 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/30 text-xs font-bold transition">
+            🔒 Lock / Logout
+          </button>
+          <button type="button" onclick="closeLinkManagerModal()" class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white">✕</button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="bg-slate-100 px-4 pt-3 border-b border-slate-200 flex flex-wrap items-center gap-2">
+        <button type="button" onclick="switchAdminTab('jobs')" id="admTabBtn-jobs" class="adm-tab-btn px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-black bg-white text-blue-600 border-t border-x border-slate-200">
+          💼 Manage Job Listings (Add / Edit / Delete)
+        </button>
+        <button type="button" onclick="switchAdminTab('categories')" id="admTabBtn-categories" class="adm-tab-btn px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900">
+          📂 Manage Categories (Add / Remove)
+        </button>
+        <button type="button" onclick="switchAdminTab('links')" id="admTabBtn-links" class="adm-tab-btn px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900">
+          🔗 Fast Link Manager (Bulk / All Links)
+        </button>
+        <button type="button" onclick="switchAdminTab('settings')" id="admTabBtn-settings" class="adm-tab-btn px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900">
+          🛡️ Admin Password & Backup
+        </button>
+      </div>
+
+      <!-- Tab Content Area -->
+      <div class="p-4 sm:p-6 overflow-y-auto custom-scrollbar flex-grow bg-slate-50/60">
+
+        <!-- TAB 1: MANAGE JOB LISTINGS (ADD, EDIT, REMOVE) -->
+        <div id="admTab-jobs" class="adm-tab-pane space-y-6">
+          <!-- Add / Edit Job Form Card -->
+          <div class="bg-white rounded-2xl p-4 sm:p-5 border border-blue-200 shadow-sm">
+            <div class="flex items-center justify-between gap-2 pb-3 mb-4 border-b border-slate-100">
+              <div>
+                <span id="jobFormModeBadge" class="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-blue-100 text-blue-800">➕ Create New Job Listing</span>
+                <h4 id="jobFormHeading" class="text-sm sm:text-base font-black text-slate-900 mt-1">Add a New Job Post (No Coding Needed)</h4>
+              </div>
+              <button type="button" id="cancelEditJobBtn" onclick="resetAdminJobForm()" class="hidden px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold">
+                Cancel Edit
+              </button>
+            </div>
+
+            <form id="adminJobForm" onsubmit="handleAdminSaveJobSubmit(event)" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3.5 text-xs">
+              <input type="hidden" id="admJobEditId" value="" />
+
+              <div class="lg:col-span-5">
+                <label class="block font-bold text-slate-700 mb-1">Job Title *</label>
+                <input id="admJobTitle" type="text" required placeholder="e.g., Amazon Warehouse Fulfillment Associate" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-semibold focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-4">
+                <label class="block font-bold text-slate-700 mb-1">Job Category *</label>
+                <select id="admJobCategory" required class="w-full px-3 py-2 rounded-xl border border-slate-300 font-semibold bg-white focus:outline-none focus:border-blue-600"></select>
+              </div>
+
+              <div class="lg:col-span-3">
+                <label class="block font-bold text-slate-700 mb-1">Open Positions Count *</label>
+                <input id="admJobOpenPos" type="number" min="1" required value="25" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-bold text-emerald-700 focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-4">
+                <label class="block font-bold text-slate-700 mb-1">Company Name *</label>
+                <input id="admJobCompany" type="text" required placeholder="e.g., Amazon Fulfillment Services" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-4">
+                <label class="block font-bold text-slate-700 mb-1">Location *</label>
+                <input id="admJobLocation" type="text" required placeholder="e.g., Multiple Locations, USA (All 50 States)" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-4">
+                <label class="block font-bold text-slate-700 mb-1">Salary / Hourly Pay *</label>
+                <input id="admJobSalary" type="text" required placeholder="e.g., $22.50 – $28.00 / hr" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-bold text-slate-900 focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-3">
+                <label class="block font-bold text-slate-700 mb-1">Shift / Employment Type</label>
+                <input id="admJobType" type="text" value="Full-Time & Part-Time" placeholder="Full-Time / Part-Time" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-3">
+                <label class="block font-bold text-slate-700 mb-1">Highlight Badge</label>
+                <input id="admJobBadge" type="text" value="Urgent Hiring • No Experience" placeholder="e.g., Instant Offer Eligible" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-2">
+                <label class="block font-bold text-slate-700 mb-1">Posted Time</label>
+                <input id="admJobPosted" type="text" value="Just now" placeholder="e.g., 2 hours ago" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-4">
+                <label class="block font-bold text-slate-700 mb-1">Benefits (Comma separated)</label>
+                <input id="admJobBenefits" type="text" value="Paid Training, Day-1 Health Insurance, Weekly Pay" placeholder="Paid Training, Weekly Pay, 401(k)" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-12">
+                <label class="block font-bold text-blue-800 mb-1">Direct Application Link (Apply URL) *</label>
+                <input id="admJobLink" type="url" required placeholder="https://your-offer-or-smartlink.com/..." class="w-full px-3.5 py-2 rounded-xl border border-blue-300 bg-blue-50/40 font-semibold text-blue-900 focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-9">
+                <label class="block font-bold text-slate-700 mb-1">Short Job Description *</label>
+                <input id="admJobDesc" type="text" required placeholder="Describe key duties, shift flexibility, and onboarding..." class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium focus:outline-none focus:border-blue-600" />
+              </div>
+
+              <div class="lg:col-span-3 flex items-end">
+                <button type="submit" id="admJobSubmitBtn" class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white font-black text-xs sm:text-sm shadow transition">
+                  ➕ Add Job to Website
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Existing Jobs List with Search, Edit & Delete -->
+          <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h4 class="text-sm sm:text-base font-black text-slate-900">Current Job Listings (<span id="admJobsListCount">34</span>)</h4>
+                <p class="text-xs text-slate-500">Click <strong>Edit</strong> to modify any job's details/link, or <strong>Delete</strong> to remove it immediately.</p>
+              </div>
+              <input id="admJobsFilterInp" oninput="renderAdminJobsTable()" type="text" placeholder="🔍 Filter jobs by title or category..." class="sm:w-72 px-3.5 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:border-blue-600" />
+            </div>
+
+            <div id="admJobsListContainer" class="space-y-2.5 max-h-[420px] overflow-y-auto custom-scrollbar pr-1"></div>
+          </div>
+        </div>
+
+        <!-- TAB 2: MANAGE JOB CATEGORIES (ADD / EDIT / REMOVE) -->
+        <div id="admTab-categories" class="adm-tab-pane hidden space-y-6">
+          <div class="bg-white rounded-2xl p-4 sm:p-5 border border-emerald-200 shadow-sm">
+            <span class="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-800">📂 Add New Job Category</span>
+            <h4 class="text-sm sm:text-base font-black text-slate-900 mt-1 mb-3">Create a New Category Track</h4>
+            <form onsubmit="handleAdminAddCategory(event)" class="grid grid-cols-1 sm:grid-cols-12 gap-3 text-xs">
+              <div class="sm:col-span-4">
+                <label class="block font-bold text-slate-700 mb-1">Category Display Name *</label>
+                <input id="admCatLabel" type="text" required placeholder="e.g., Security Guard Jobs" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-semibold" />
+              </div>
+              <div class="sm:col-span-3">
+                <label class="block font-bold text-slate-700 mb-1">Category Key / Filter ID *</label>
+                <input id="admCatKey" type="text" required placeholder="e.g., security jobs" class="w-full px-3 py-2 rounded-xl border border-slate-300 font-medium" />
+              </div>
+              <div class="sm:col-span-1">
+                <label class="block font-bold text-slate-700 mb-1">Icon</label>
+                <input id="admCatIcon" type="text" value="🛡️" class="w-full px-2 py-2 rounded-xl border border-slate-300 text-center text-base" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block font-bold text-slate-700 mb-1">Average Pay</label>
+                <input id="admCatPay" type="text" value="$22.00–$30.00/hr" required class="w-full px-3 py-2 rounded-xl border border-slate-300 font-semibold" />
+              </div>
+              <div class="sm:col-span-2 flex items-end">
+                <button type="submit" class="w-full py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs shadow transition">
+                  ➕ Add Category
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm">
+            <h4 class="text-sm sm:text-base font-black text-slate-900 mb-1">Active Job Categories (<span id="admCatsListCount">19</span>)</h4>
+            <p class="text-xs text-slate-500 mb-4">You can remove any category or update its average pay & icon.</p>
+            <div id="admCategoriesListContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+          </div>
+        </div>
+
+        <!-- TAB 3: FAST LINK MANAGER (BULK + INDIVIDUAL LINKS) -->
+        <div id="admTab-links" class="adm-tab-pane hidden space-y-5">
+          <div class="bg-blue-50 border border-blue-200 rounded-2xl p-4">
+            <label class="block text-xs font-extrabold uppercase tracking-wider text-blue-900 mb-1.5">
+              Bulk Fill URL (সব জবে এবং গ্লোবাল বাটনে এক ক্লিকে একই লিংক দিতে চাইলে):
+            </label>
+            <div class="flex flex-col sm:flex-row gap-2">
+              <input id="bulkSmartlinkInput" type="url" class="flex-grow px-3.5 py-2 rounded-xl border border-blue-300 text-xs sm:text-sm font-medium focus:outline-none" value="https://araplhn.org/4/d95e2db27e8129bb1b0060906b9423b2" />
+              <button type="button" onclick="applyBulkLinkToAllJobs()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shrink-0 transition">
+                Apply to All Jobs
+              </button>
+            </div>
+          </div>
+          <div id="individualJobLinksContainer" class="space-y-3"></div>
+        </div>
+
+        <!-- TAB 4: ADMIN PASSWORD & RESET / BACKUP SETTINGS -->
+        <div id="admTab-settings" class="adm-tab-pane hidden space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-3">
+              <span class="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-amber-100 text-amber-800">🔐 Change Admin Credentials</span>
+              <h4 class="text-base font-black text-slate-900">Update Admin Login Username & Password</h4>
+              <form onsubmit="handleAdminPasswordChange(event)" class="space-y-3 text-xs">
+                <div>
+                  <label class="block font-bold text-slate-700 mb-1">New Admin Username</label>
+                  <input id="admNewUsername" type="text" required value="admin" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 font-semibold" />
+                </div>
+                <div>
+                  <label class="block font-bold text-slate-700 mb-1">New Admin Password</label>
+                  <input id="admNewPassword" type="text" required value="uscareers2026" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 font-semibold" />
+                </div>
+                <button type="submit" class="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-black text-xs transition">
+                  💾 Update Login Credentials
+                </button>
+              </form>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between">
+              <div>
+                <span class="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-rose-100 text-rose-800">♻️ Factory Default Restore</span>
+                <h4 class="text-base font-black text-slate-900 mt-1">Reset All Jobs & Categories to Original Default</h4>
+                <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                  যদি কখনো সব পরিবর্তন মুছে একদম শুরুর ৩৪টি জব এবং ১৯টি ক্যাটাগরিতে ফিরে যেতে চান, তবে নিচের বাটনে ক্লিক করুন।
+                </p>
+              </div>
+              <button type="button" onclick="resetAllCmsDataToDefaults()" class="self-start px-4 py-2.5 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 font-bold text-xs transition">
+                ⚠️ Reset to Original 34 Jobs & 19 Categories
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Action Bar -->
+      <div class="p-4 sm:p-5 bg-white border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <span id="linkSaveToast" class="text-xs font-extrabold text-emerald-600 hidden">✓ সব পরিবর্তন সাথে সাথে ওয়েবসাইটে সেভ ও আপডেট হয়ে গেছে!</span>
+          <span class="text-[11px] text-slate-500">যেকোনো পরিবর্তন করার পর <strong>Save All Changes</strong> চাপুন।</span>
+        </div>
         <div class="flex flex-wrap items-center gap-2 ml-auto">
           <button type="button" onclick="closeLinkManagerModal()" class="px-4 py-2.5 rounded-xl bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs font-bold">Close</button>
-          <button type="button" onclick="saveAllCustomJobLinks()" class="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-black shadow">💾 Save All Links</button>
+          <button type="button" onclick="saveAllCustomJobLinks()" class="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-black shadow-lg">
+            💾 Save All Changes
+          </button>
         </div>
       </div>
     </div>
@@ -1522,8 +1814,8 @@
        APPLICATION LOGIC, 19 CATEGORIES, 130 REVIEWS & RESPONSIVE AD ENGINE
   ====================================================================== -->
   <script>
-    // 1. All 19 Exact Categories Requested by User
-    const CATEGORIES_META = [
+    // 1. All 19 Default Categories (Editable via Admin Control Panel)
+    window.INITIAL_CATEGORIES_META = [
       { key: "Amazon warehouse jobs", label: "Amazon Warehouse Jobs", icon: "📦", color: "from-amber-500 to-orange-600", avgPay: "$21.50–$27.50/hr" },
       { key: "nurse jobs", label: "Nurse Jobs (RN / LPN / CNA)", icon: "🩺", color: "from-rose-500 to-pink-600", avgPay: "$29.50–$64.00/hr" },
       { key: "driver jobs", label: "Driver Jobs (CDL & Local Van)", icon: "🚚", color: "from-blue-600 to-indigo-700", avgPay: "$23.50–$36.50/hr" },
@@ -1545,75 +1837,127 @@
       { key: "cleaning jobs", label: "Cleaning Jobs (Office & Medical)", icon: "✨", color: "from-emerald-500 to-teal-700", avgPay: "$20.00–$29.00/hr" }
     ];
 
-    // Permanent Job Data baked into the file (Visitors cannot alter this on GitHub Pages)
+    let CATEGORIES_META = JSON.parse(JSON.stringify(window.INITIAL_CATEGORIES_META));
     let JOBS_DATA = JSON.parse(JSON.stringify(window.INITIAL_JOBS_DATA));
 
-    // 2. Generate 130 Authentic Candidate Reviews (Part of 2,723 Total Reviews)
-    // Mix of 5-star, 4-star, and 3-star reviews across all 19 job categories
-    const FIRST_NAMES = [
-      "Michael", "Jessica", "David", "Ashley", "Chris", "Amanda", "Joshua", "Sarah", "Daniel", "Brittany",
-      "Matthew", "Samantha", "Andrew", "Emily", "Joseph", "Elizabeth", "Ryan", "Megan", "Brandon", "Lauren",
-      "Tyler", " Kayla", "kevin", "Rachel", "Justin", "Hannah", "William", "Alexis", "Jonathan", "Victoria",
-      "Carlos", "Maria", "Luis", "Elena", "Jamal", "Keisha", "Darnell", "Tasha", "Priya", "Rohan",
-      "Sophia", "Liam", "Noah", "Olivia", "Ethan", "Ava", "Lucas", "Mia", "Mason", "Harper"
+    // Load saved Categories, Jobs, and Custom Links from localStorage if edited via Admin Panel
+    try {
+      const savedCats = localStorage.getItem("us_careers_cms_categories_v2");
+      if (savedCats) {
+        const parsedCats = JSON.parse(savedCats);
+        if (Array.isArray(parsedCats) && parsedCats.length > 0) CATEGORIES_META = parsedCats;
+      }
+      const savedJobs = localStorage.getItem("us_careers_cms_jobs_v2");
+      if (savedJobs) {
+        const parsedJobs = JSON.parse(savedJobs);
+        if (Array.isArray(parsedJobs) && parsedJobs.length > 0) JOBS_DATA = parsedJobs;
+      } else {
+        const legacyLinks = localStorage.getItem("us_careers_custom_job_links_v1");
+        if (legacyLinks) {
+          const parsedLinks = JSON.parse(legacyLinks);
+          JOBS_DATA.forEach(j => { if (parsedLinks[j.id]) j.applyLink = parsedLinks[j.id]; });
+        }
+      }
+      const savedSmartlink = localStorage.getItem("us_careers_custom_smartlink_v1");
+      if (savedSmartlink && window.ADSTERRA_CONFIG) {
+        window.ADSTERRA_CONFIG.smartlink = savedSmartlink;
+      }
+    } catch (e) {}
+
+    // 2. 130 Unique, Realistic American Candidate Names & Diverse Reviews (Zero Duplicates!)
+    const UNIQUE_130_CANDIDATE_NAMES = [
+      "Marcus Vance", "Brianna Kowalski", "DeShawn Miller", "Elena Rostova", "Connor Fitzsimmons",
+      "Aaliyah Washington", "Mateo Hernandez", "Hannah Lindqvist", "logan_tx94 (Logan Brooks)", "Priya Nair-Patel",
+      "Trevor McAllister", "Jasmine Al-Mansoor", "Caleb O'Connor", "Valeria Morales", "Derrick Boateng",
+      "Kaitlyn Beaulieu", "Brandon T. Henderson", "Mei-Ling Zhou", "Austin Calloway", "Savannah DeLuca",
+      "Malik Robinson", "Chloe Zimmerman", "Gabriel Santoro", "Tasha Montgomery", "Zachary Peltier",
+      "Nadia Benitez", "Jordan Mercer", "Keishahane Quarles", "Dylan Rutledge", "Fatima Chowdhury",
+      "Colton St. Clair", "Marisol Dominguez", "Kendrick Hollis", "Jenna Grabowski", "Omar Farooq",
+      "Haley Satterfield", "Devon Carmona", "brooke_rn (Brooke Hayden)", "Rafael Castellanos", "Monique Baptiste",
+      "Garrett Pennington", "Amina Okafor", "Cody Weatherford", "Vanessa Pham", "Terrence Hargrove",
+      "Sierra Lindstrom", "Javier Espinoza", "Courtney Brannigan", "Darius Treadwell", "Yuki Takahashi",
+      "Blake Hollingsworth", "kelsey_wfh (Kelsey Pruitt)", "Andres Villalobos", "Latoya Crittenden", "Spencer Ashworth",
+      "Camila Echeverria", "Shane McGillicuddy", "Rohan Kulkarni", "WhitneyThornhill", "Ezekiel Abernathy",
+      "Paige VanDerBeek", "Hector Quintanilla", "Tiffany Syverson", "QuintonMerriweather", "Grace Nnamdi",
+      "Dalton Kessinger", "Miriam Goldstein", "Cedric Thibodeaux", "Amberlyn Vance", "SantiagoBautista",
+      "Lindsey MacFarlane", "Tariq Al-Jamil", "Makenzie Holcomb", "Victor Sorokin", "Chantel Desrosiers",
+      "j_kovacs88 (Jared Kovacs)", "Sydney Fontenot", "Damian Jankowski", "Rochelle Toussaint", "Wyatt Stallings",
+      "Esmeralda Cisneros", "Preston Lazenby", "Ananya Chatterjee", "Corey Holloman", "Meredith Gable",
+      "Kofi Mensah-Bonsu", "Bethany Lundgren", "Ruben Dario Soto", "Shayna Kupferberg", "Lance Corporal (Ret.) D. Miller",
+      "Tori Blankenship", "Kieran O'aughnessy", "Yesenia Valladares", "Sterling Hargrave", "Nneka Onyekachi",
+      "Gavin Breckenridge", "Lucia Fernandez-Cruz", "Dontae Culpepper", "Abigail Rosenblatt", "Tanner Wojcik",
+      "Sabrina Koufos", "Emmanuel Osei", "Mallory Fenwick", "Joaquin Arredondo", "Caitlin McNamara",
+      "Marquise Ellington", "Heidi Schoenfeld", "Deepak Venkataraman", "Kendra Wainscott", "Bryce Cunningham",
+      "Noelle Blanchette", "Gustavo Lomeli", "Tamara Belanger", "reggie_cdl (Reginald Dawkins)", "Vivianne Chu",
+      "Payton Thornburg", "Alejandra Mondragon", "Jeremiah Hagans", "Cassidy O'Rourke", "Zainab Abubakar",
+      "Hayden Craddock", "Sonia Balasubramanian", "Clifford Wetherby", "Arianna Papoutsis", "Desmond Kyerematen",
+      "Karina Villarreal", "Trenton Barksdale", "Mireille Lefebvre", "Navid Khorramtash", "Shelby Higginbotham"
     ];
-    const LAST_INITIALS = ["R.", "M.", "T.", "B.", "S.", "L.", "K.", "W.", "P.", "G.", "H.", "D.", "C.", "V.", "J."];
+
     const US_CITIES = [
       "Dallas, TX", "Atlanta, GA", "Phoenix, AZ", "Orlando, FL", "Chicago, IL", "Columbus, OH",
       "Charlotte, NC", "Houston, TX", "Las Vegas, NV", "Denver, CO", "Tampa, FL", "Indianapolis, IN",
       "Nashville, TN", "San Antonio, TX", "Sacramento, CA", "Kansas City, MO", "Philadelphia, PA",
-      "Detroit, MI", "Raleigh, NC", "Salt Lake City, UT", "Memphis, TN", "Louisville, KY"
+      "Detroit, MI", "Raleigh, NC", "Salt Lake City, UT", "Memphis, TN", "Louisville, KY",
+      "Jacksonville, FL", "Fort Worth, TX", "Milwaukee, WI", "Albuquerque, NM", "Tucson, AZ",
+      "Fresno, CA", "Mesa, AZ", "Omaha, NE", "Colorado Springs, CO", "Virginia Beach, VA",
+      "Bakersfield, CA", "Tulsa, OK", "Arlington, TX", "Newark, NJ", "Wichita, KS", "Spokane, WA"
     ];
 
     const REVIEW_TEMPLATES_5 = [
-      "Applied on Tuesday night and got my shift confirmation by Thursday morning! Starting pay was exactly as advertised and weekly direct deposit hits every Friday.",
-      "Honestly the easiest recruiting portal I've ever used. No endless resume uploads—just clicked the job link, completed the 3-minute form, and got hired.",
-      "I was looking for stable full-time hours with day-one healthcare. US Careers connected me directly with the regional hiring manager in my city.",
-      "Super grateful for this platform! My onboarding went smoothly, training was 100% paid, and the sign-on bonus was included in my second paycheck.",
-      "Been working my new schedule for 6 weeks now. Great team environment, zero agency fees, and the shift flexibility works around my family routine."
+      "Applied Tuesday night and got my shift confirmation Thursday morning! Starting pay was right on the mark and weekly direct deposit hits every Friday.",
+      "Hands down the easiest recruiting portal I've used. No endless resume formatting—just clicked the job link, filled out the 2-minute form, and got scheduled.",
+      "I needed stable full-time hours with day-one healthcare for my family. US Careers connected me straight to the regional hiring team in my city.",
+      "Super thankful for this site! Onboarding was smooth, orientation was 100% paid, and the first half of my sign-on bonus showed up on my second check.",
+      "Six weeks into my new schedule now. Friendly supervisors, zero staffing agency fees, and the shift flexibility works around my kids' school hours.",
+      "After getting ghosted on big job boards for two months, I applied here and had a real orientation date within 36 hours. Couldn't ask for better.",
+      "The hourly rate was actually $1.50 higher than my last job because of the evening shift differential. Very transparent process from start to finish.",
+      "Loved that I didn't have to sit through three rounds of interviews. Verified my ID, picked my shift block, and started paid training the following Monday.",
+      "Direct-hire link worked immediately. HR texted me my badge pickup instructions the next afternoon and everything has been super organized.",
+      "Best decision I made this year. Clean facility, steady 40-hour weeks plus optional overtime whenever I want to pick up extra cash."
     ];
     const REVIEW_TEMPLATES_4 = [
-      "Very solid experience overall. The background check took an extra 2 days because of the weekend, but once cleared I started right away at $23.50/hr.",
-      "Good job portal with real openings. My first choice shift was full, so I took the afternoon shift instead—still paying great overtime.",
-      "Helpful recruiter follow-up via text and email. The orientation portal had a lot of safety videos to watch, but the job itself is awesome.",
-      "Legit direct-hire links. Took about 4 days to hear back for my location, which wasn't bad at all compared to other job boards."
+      "Very solid experience overall. Background check took an extra two days because of the holiday weekend, but once cleared I started right away.",
+      "Legit job portal with real local openings. My first-choice morning shift was full, so I grabbed the mid-day shift instead—still great weekly pay.",
+      "Helpful recruiter follow-up by text and email. The online safety orientation had quite a few training modules, but at least you get paid for those hours.",
+      "Took about 4 business days to hear back for my specific ZIP code, which was still much faster than applying on generic job sites."
     ];
     const REVIEW_TEMPLATES_3 = [
-      "Decent placement service. The pay is good and the company is real, though parking at my warehouse hub is a bit crowded during peak shift change.",
-      "It took almost a full week to get my badge processed at the terminal, which was a little slow, but once I started the hourly rate matched the listing.",
-      "3.5 stars—good hourly wage and weekly pay, just wish the morning shift had more weekend slots open when I first applied."
+      "Decent placement service. The pay is accurate and the company is real, though employee parking at my hub gets pretty tight during shift change.",
+      "Took nearly a week for security to print my terminal badge, which was a little slow, but once I started on the floor the pay rate matched 100%.",
+      "3.5 stars—good hourly pay and Friday direct deposit, just wish more weekend-only blocks were open in my area when I first registered."
     ];
 
     function build130Reviews() {
       const list = [];
       for (let i = 0; i < 130; i++) {
-        const catObj = CATEGORIES_META[i % CATEGORIES_META.length];
-        const fname = FIRST_NAMES[(i * 3) % FIRST_NAMES.length].trim();
-        const linit = LAST_INITIALS[(i * 7) % LAST_INITIALS.length];
-        const city = US_CITIES[(i * 5) % US_CITIES.length];
+        const catObj = CATEGORIES_META[i % CATEGORIES_META.length] || { label: "Direct-Hire Track" };
+        const fullName = UNIQUE_130_CANDIDATE_NAMES[i % UNIQUE_130_CANDIDATE_NAMES.length];
+        const city = US_CITIES[(i * 7 + 3) % US_CITIES.length];
 
-        // Realistic rating distribution: ~74% 5-star, ~19% 4-star, ~7% 3-star (not all 5 stars!)
         let stars = 5;
-        let comment = "";
+        let body = "";
         if (i % 14 === 4) {
           stars = 3;
-          comment = `[${catObj.label}] ` + REVIEW_TEMPLATES_3[i % REVIEW_TEMPLATES_3.length];
+          body = REVIEW_TEMPLATES_3[i % REVIEW_TEMPLATES_3.length];
         } else if (i % 5 === 2) {
           stars = 4;
-          comment = `[${catObj.label}] ` + REVIEW_TEMPLATES_4[i % REVIEW_TEMPLATES_4.length];
+          body = REVIEW_TEMPLATES_4[i % REVIEW_TEMPLATES_4.length];
         } else {
           stars = 5;
-          comment = `[${catObj.label}] ` + REVIEW_TEMPLATES_5[i % REVIEW_TEMPLATES_5.length];
+          body = REVIEW_TEMPLATES_5[i % REVIEW_TEMPLATES_5.length];
         }
 
+        // Vary whether the category label appears naturally or as a tag so reviews don't look copy-pasted
+        const comment = (i % 2 === 0) ? `${body}` : `[${catObj.label}] ${body}`;
         const daysAgo = (i % 28) + 1;
         list.push({
           id: "rev-" + (i + 1),
-          name: `${fname} ${linit}`,
+          name: fullName,
           location: city,
           category: catObj.label,
           stars: stars,
-          dateText: daysAgo === 1 ? "Yesterday" : `${daysAgo} days ago`,
+          dateText: daysAgo === 1 ? "Yesterday" : (daysAgo === 2 ? "2 days ago" : `${daysAgo} days ago`),
           text: comment,
           verifiedHire: true
         });
@@ -1672,10 +2016,37 @@
     }
 
     // 4. Populate Category Dropdowns & Category Cards
+    function updateDynamicSiteCounters() {
+      const totalJobs = JOBS_DATA.length;
+      const totalCats = CATEGORIES_META.length;
+      const totalOpen = JOBS_DATA.reduce((acc, j) => acc + (Number(j.openPositions) || 0), 0);
+
+      const statOpenEl = document.getElementById("statOpenPositions");
+      if (statOpenEl) statOpenEl.textContent = totalOpen.toLocaleString() + "+";
+
+      const statProgEl = document.getElementById("statActiveProgramsCount");
+      if (statProgEl) statProgEl.textContent = String(totalJobs);
+
+      const navBadge = document.getElementById("navJobCountBadge");
+      if (navBadge) navBadge.textContent = String(totalJobs);
+
+      document.querySelectorAll(".dyn-job-count").forEach(el => { el.textContent = String(totalJobs); });
+      document.querySelectorAll(".dyn-cat-count").forEach(el => { el.textContent = String(totalCats); });
+
+      const admHeaderStats = document.getElementById("adminHeaderStats");
+      if (admHeaderStats) admHeaderStats.textContent = `${totalJobs} Jobs • ${totalCats} Categories • ${totalOpen.toLocaleString()} Open Slots`;
+    }
+
     function populateCategorySelects() {
       const heroSel = document.getElementById("heroCategorySelect");
       const jobsSel = document.getElementById("jobsCategoryFilter");
       const revSel = document.getElementById("newRevCategory");
+      const admJobCatSel = document.getElementById("admJobCategory");
+
+      if (heroSel) heroSel.innerHTML = `<option value="ALL">All ${CATEGORIES_META.length} Job Categories</option>`;
+      if (jobsSel) jobsSel.innerHTML = `<option value="ALL">All ${CATEGORIES_META.length} Categories (${JOBS_DATA.length} Jobs)</option>`;
+      if (revSel) revSel.innerHTML = "";
+      if (admJobCatSel) admJobCatSel.innerHTML = "";
 
       CATEGORIES_META.forEach(cat => {
         const matchingJobs = JOBS_DATA.filter(j => j.category === cat.key);
@@ -1699,7 +2070,14 @@
           opt3.textContent = cat.label;
           revSel.appendChild(opt3);
         }
+        if (admJobCatSel) {
+          const opt4 = document.createElement("option");
+          opt4.value = cat.key;
+          opt4.textContent = `${cat.icon} ${cat.label} (${cat.key})`;
+          admJobCatSel.appendChild(opt4);
+        }
       });
+      updateDynamicSiteCounters();
     }
 
     function renderHomeCategories() {
@@ -1921,6 +2299,7 @@
       partnersKeys.forEach(pKey => {
         const catMeta = CATEGORIES_META.find(c => c.key === pKey);
         const jobs = JOBS_DATA.filter(j => j.category === pKey);
+        if (!catMeta || jobs.length === 0) return;
         const openCount = jobs.reduce((s, j) => s + j.openPositions, 0);
         const mainJob = jobs[0];
 
@@ -2184,22 +2563,88 @@
       resizeTimer = setTimeout(renderAllResponsiveAds, 250);
     });
 
-    // Load saved links on page load
-    try {
-      const savedLinks = localStorage.getItem("us_careers_custom_job_links_v1");
-      if (savedLinks) {
-        const parsed = JSON.parse(savedLinks);
-        JOBS_DATA.forEach(j => {
-          if (parsed[j.id]) j.applyLink = parsed[j.id];
-        });
-      }
-      const savedSmartlink = localStorage.getItem("us_careers_custom_smartlink_v1");
-      if (savedSmartlink && window.ADSTERRA_CONFIG) {
-        window.ADSTERRA_CONFIG.smartlink = savedSmartlink;
-      }
-    } catch (e) {}
+    // =====================================================================
+    // 11. PASSWORD-PROTECTED ADMIN LOGIN & FULL NO-CODE CMS CONTROL PANEL
+    // =====================================================================
+    let adminAuthSession = false;
+    let currentCaptchaExpected = 12;
 
-    // 3-Click Footer Trigger & Secret Link Manager Functions
+    function getAdminCredentials() {
+      try {
+        const raw = localStorage.getItem("us_careers_admin_creds_v1");
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (parsed.user && parsed.pass) return parsed;
+        }
+      } catch (e) {}
+      return { user: "admin", pass: "uscareers2026" };
+    }
+
+    function generateNewAdminCaptcha() {
+      const a = Math.floor(Math.random() * 9) + 2;
+      const b = Math.floor(Math.random() * 9) + 1;
+      currentCaptchaExpected = a + b;
+      const qEl = document.getElementById("adminCaptchaQuestion");
+      if (qEl) qEl.textContent = `What is ${a} + ${b} ?`;
+      const inpEl = document.getElementById("adminCaptchaInp");
+      if (inpEl) inpEl.value = "";
+    }
+
+    function openAdminPortal() {
+      if (adminAuthSession) {
+        openLinkManagerModal();
+      } else {
+        openAdminLoginModal();
+      }
+    }
+
+    function openAdminLoginModal() {
+      generateNewAdminCaptcha();
+      document.getElementById("adminLoginError")?.classList.add("hidden");
+      document.getElementById("adminLoginModal")?.classList.remove("hidden");
+      setTimeout(() => document.getElementById("adminUserInp")?.focus(), 80);
+    }
+
+    function closeAdminLoginModal() {
+      document.getElementById("adminLoginModal")?.classList.add("hidden");
+    }
+
+    function toggleAdminPassVis() {
+      const inp = document.getElementById("adminPassInp");
+      const btn = document.getElementById("togglePassBtn");
+      if (!inp || !btn) return;
+      if (inp.type === "password") {
+        inp.type = "text";
+        btn.textContent = "Hide";
+      } else {
+        inp.type = "password";
+        btn.textContent = "Show";
+      }
+    }
+
+    function handleAdminLoginSubmit(e) {
+      e.preventDefault();
+      const creds = getAdminCredentials();
+      const u = (document.getElementById("adminUserInp")?.value || "").trim();
+      const p = (document.getElementById("adminPassInp")?.value || "").trim();
+      const c = Number(document.getElementById("adminCaptchaInp")?.value);
+
+      if (u === creds.user && p === creds.pass && c === currentCaptchaExpected) {
+        adminAuthSession = true;
+        closeAdminLoginModal();
+        openLinkManagerModal();
+      } else {
+        document.getElementById("adminLoginError")?.classList.remove("hidden");
+        generateNewAdminCaptcha();
+      }
+    }
+
+    function adminLogout() {
+      adminAuthSession = false;
+      closeLinkManagerModal();
+    }
+
+    // Keep 3-click footer & Shift+A routed through the secure Admin Login Portal
     let secretClickCount = 0;
     let secretClickTimer = null;
 
@@ -2209,27 +2654,305 @@
       secretClickTimer = setTimeout(() => { secretClickCount = 0; }, 1800);
       if (secretClickCount >= 3) {
         secretClickCount = 0;
-        openLinkManagerModal();
+        openAdminPortal();
       }
     }
 
-    function openLinkManagerModal() {
-      const container = document.getElementById("individualJobLinksContainer");
-      const modal = document.getElementById("linkManagerModal");
-      if (!container || !modal) return;
+    function switchAdminTab(tabKey) {
+      ["jobs", "categories", "links", "settings"].forEach(k => {
+        const pane = document.getElementById("admTab-" + k);
+        const btn = document.getElementById("admTabBtn-" + k);
+        if (pane) pane.classList.toggle("hidden", k !== tabKey);
+        if (btn) {
+          if (k === tabKey) {
+            btn.className = "adm-tab-btn px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-black bg-white text-blue-600 border-t border-x border-slate-200";
+          } else {
+            btn.className = "adm-tab-btn px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900";
+          }
+        }
+      });
+    }
 
+    function persistAllCmsState() {
+      try {
+        localStorage.setItem("us_careers_cms_categories_v2", JSON.stringify(CATEGORIES_META));
+        localStorage.setItem("us_careers_cms_jobs_v2", JSON.stringify(JOBS_DATA));
+        if (window.ADSTERRA_CONFIG?.smartlink) {
+          localStorage.setItem("us_careers_custom_smartlink_v1", window.ADSTERRA_CONFIG.smartlink);
+        }
+      } catch (e) {}
+    }
+
+    function refreshAllSiteViews() {
+      populateCategorySelects();
+      renderHomeCategories();
+      renderHomeFeaturedJobs();
+      renderAllJobsPage();
+      renderPartnerSections();
+      renderAdminJobsTable();
+      renderAdminCategoriesList();
+      renderAdminFastLinksList();
+    }
+
+    function showAdminSavedToast(msg) {
+      const toast = document.getElementById("linkSaveToast");
+      if (!toast) return;
+      if (msg) toast.textContent = msg;
+      toast.classList.remove("hidden");
+      setTimeout(() => { toast.classList.add("hidden"); }, 2500);
+    }
+
+    // --- Admin Tab 1: Manage Jobs (Add / Edit / Delete) ---
+    function renderAdminJobsTable() {
+      const container = document.getElementById("admJobsListContainer");
+      const countEl = document.getElementById("admJobsListCount");
+      const q = (document.getElementById("admJobsFilterInp")?.value || "").trim().toLowerCase();
+      if (countEl) countEl.textContent = String(JOBS_DATA.length);
+      if (!container) return;
+
+      const filtered = JOBS_DATA.filter(j => {
+        if (!q) return true;
+        return j.title.toLowerCase().includes(q) || j.category.toLowerCase().includes(q) || j.company.toLowerCase().includes(q);
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="p-6 text-center text-xs text-slate-500">No jobs match your search filter.</div>`;
+        return;
+      }
+
+      container.innerHTML = filtered.map((job, idx) => `
+        <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col lg:flex-row lg:items-center justify-between gap-3 hover:border-blue-300 transition">
+          <div class="space-y-1 flex-grow">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-blue-100 text-blue-800">${job.id} • ${job.category}</span>
+              <span class="text-[10px] font-extrabold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">${job.openPositions} Open Slots</span>
+              <span class="text-[11px] font-bold text-slate-700">${job.salary}</span>
+            </div>
+            <p class="text-xs sm:text-sm font-black text-slate-900">${job.title}</p>
+            <p class="text-[11px] text-slate-500">${job.company} • ${job.location}</p>
+            <p class="text-[11px] text-blue-600 font-medium truncate max-w-xl">🔗 ${job.applyLink}</p>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <button type="button" onclick="startAdminEditJob('${job.id.replace(/'/g, "\'")}')" class="px-3 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition">
+              ✏️ Edit
+            </button>
+            <button type="button" onclick="handleAdminDeleteJob('${job.id.replace(/'/g, "\'")}')" class="px-3 py-1.5 rounded-xl bg-rose-50 hover:bg-rose-600 text-rose-700 hover:text-white border border-rose-200 text-xs font-bold transition">
+              🗑️ Delete
+            </button>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function resetAdminJobForm() {
+      document.getElementById("admJobEditId").value = "";
+      document.getElementById("admJobTitle").value = "";
+      document.getElementById("admJobCompany").value = "";
+      document.getElementById("admJobLocation").value = "Multiple Locations, USA";
+      document.getElementById("admJobSalary").value = "$22.00 – $28.50 / hr";
+      document.getElementById("admJobOpenPos").value = "25";
+      document.getElementById("admJobType").value = "Full-Time & Part-Time";
+      document.getElementById("admJobBadge").value = "Urgent Hiring • No Experience";
+      document.getElementById("admJobPosted").value = "Just now";
+      document.getElementById("admJobBenefits").value = "Paid Training, Day-1 Health Insurance, Weekly Pay";
+      document.getElementById("admJobLink").value = window.ADSTERRA_CONFIG?.smartlink || "https://araplhn.org/4/d95e2db27e8129bb1b0060906b9423b2";
+      document.getElementById("admJobDesc").value = "";
+
+      const badge = document.getElementById("jobFormModeBadge");
+      const heading = document.getElementById("jobFormHeading");
+      const submitBtn = document.getElementById("admJobSubmitBtn");
+      const cancelBtn = document.getElementById("cancelEditJobBtn");
+
+      if (badge) {
+        badge.textContent = "➕ Create New Job Listing";
+        badge.className = "text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-blue-100 text-blue-800";
+      }
+      if (heading) heading.textContent = "Add a New Job Post (No Coding Needed)";
+      if (submitBtn) submitBtn.textContent = "➕ Add Job to Website";
+      if (cancelBtn) cancelBtn.classList.add("hidden");
+    }
+
+    function startAdminEditJob(jobId) {
+      const job = JOBS_DATA.find(j => j.id === jobId);
+      if (!job) return;
+
+      document.getElementById("admJobEditId").value = job.id;
+      document.getElementById("admJobTitle").value = job.title;
+      document.getElementById("admJobCategory").value = job.category;
+      document.getElementById("admJobCompany").value = job.company;
+      document.getElementById("admJobLocation").value = job.location;
+      document.getElementById("admJobSalary").value = job.salary;
+      document.getElementById("admJobOpenPos").value = job.openPositions;
+      document.getElementById("admJobType").value = job.type || "Full-Time";
+      document.getElementById("admJobBadge").value = job.badge || "Urgent Hiring";
+      document.getElementById("admJobPosted").value = job.postedAgo || "1 hour ago";
+      document.getElementById("admJobBenefits").value = Array.isArray(job.benefits) ? job.benefits.join(", ") : "";
+      document.getElementById("admJobLink").value = job.applyLink;
+      document.getElementById("admJobDesc").value = job.description;
+
+      const badge = document.getElementById("jobFormModeBadge");
+      const heading = document.getElementById("jobFormHeading");
+      const submitBtn = document.getElementById("admJobSubmitBtn");
+      const cancelBtn = document.getElementById("cancelEditJobBtn");
+
+      if (badge) {
+        badge.textContent = "✏️ Editing Job ID: " + job.id;
+        badge.className = "text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-amber-100 text-amber-800";
+      }
+      if (heading) heading.textContent = "Update Existing Job Details & Link";
+      if (submitBtn) submitBtn.textContent = "💾 Update This Job";
+      if (cancelBtn) cancelBtn.classList.remove("hidden");
+
+      document.getElementById("adminJobForm")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+
+    function handleAdminSaveJobSubmit(e) {
+      e.preventDefault();
+      const editId = document.getElementById("admJobEditId").value.trim();
+      const title = document.getElementById("admJobTitle").value.trim();
+      const category = document.getElementById("admJobCategory").value;
+      const company = document.getElementById("admJobCompany").value.trim();
+      const location = document.getElementById("admJobLocation").value.trim();
+      const salary = document.getElementById("admJobSalary").value.trim();
+      const openPositions = Math.max(1, Number(document.getElementById("admJobOpenPos").value) || 20);
+      const type = document.getElementById("admJobType").value.trim() || "Full-Time";
+      const badge = document.getElementById("admJobBadge").value.trim() || "Verified Opening";
+      const postedAgo = document.getElementById("admJobPosted").value.trim() || "Just now";
+      const benefitsRaw = document.getElementById("admJobBenefits").value;
+      const benefits = benefitsRaw.split(",").map(s => s.trim()).filter(Boolean);
+      const applyLink = document.getElementById("admJobLink").value.trim();
+      const description = document.getElementById("admJobDesc").value.trim();
+
+      if (!title || !applyLink) return;
+
+      if (editId) {
+        const idx = JOBS_DATA.findIndex(j => j.id === editId);
+        if (idx !== -1) {
+          JOBS_DATA[idx] = {
+            ...JOBS_DATA[idx],
+            title, category, company, location, salary, openPositions, type, badge, postedAgo,
+            benefits: benefits.length ? benefits : ["Paid Training", "Weekly Pay"],
+            applyLink, description
+          };
+        }
+        showAdminSavedToast("✓ জবটি সফলভাবে আপডেট ও সেভ হয়েছে!");
+      } else {
+        const newId = "job-" + String(Date.now()).slice(-5);
+        JOBS_DATA.unshift({
+          id: newId,
+          title, category, company, location, salary, openPositions, type, badge, postedAgo,
+          benefits: benefits.length ? benefits : ["Paid Training", "Weekly Pay"],
+          verified: true,
+          applyLink, description
+        });
+        showAdminSavedToast("✓ নতুন জব লিস্টিং ওয়েবসাইটে যুক্ত হয়েছে!");
+      }
+
+      persistAllCmsState();
+      refreshAllSiteViews();
+      resetAdminJobForm();
+    }
+
+    function handleAdminDeleteJob(jobId) {
+      JOBS_DATA = JOBS_DATA.filter(j => j.id !== jobId);
+      persistAllCmsState();
+      refreshAllSiteViews();
+      showAdminSavedToast("🗑️ জব লিস্টিংটি মুছে ফেলা হয়েছে!");
+    }
+
+    // --- Admin Tab 2: Manage Categories (Add / Remove) ---
+    function renderAdminCategoriesList() {
+      const container = document.getElementById("admCategoriesListContainer");
+      const countEl = document.getElementById("admCatsListCount");
+      if (countEl) countEl.textContent = String(CATEGORIES_META.length);
+      if (!container) return;
+
+      container.innerHTML = CATEGORIES_META.map(cat => {
+        const jobCount = JOBS_DATA.filter(j => j.category === cat.key).length;
+        return `
+          <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <span class="w-9 h-9 rounded-xl bg-gradient-to-br ${cat.color || 'from-blue-600 to-indigo-700'} text-white flex items-center justify-center text-base shrink-0">${cat.icon || '💼'}</span>
+              <div class="min-w-0">
+                <p class="text-xs font-black text-slate-900 truncate">${cat.label}</p>
+                <p class="text-[11px] text-slate-500 truncate">${cat.avgPay} • <strong>${jobCount} Jobs</strong></p>
+              </div>
+            </div>
+            <button type="button" onclick="handleAdminDeleteCategory('${cat.key.replace(/'/g, "\'")}')" class="px-2.5 py-1.5 rounded-lg bg-rose-50 hover:bg-rose-600 text-rose-700 hover:text-white border border-rose-200 text-[11px] font-bold shrink-0 transition">
+              Remove
+            </button>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function handleAdminAddCategory(e) {
+      e.preventDefault();
+      const label = document.getElementById("admCatLabel").value.trim();
+      const key = document.getElementById("admCatKey").value.trim() || label.toLowerCase();
+      const icon = document.getElementById("admCatIcon").value.trim() || "💼";
+      const avgPay = document.getElementById("admCatPay").value.trim() || "$22.00–$30.00/hr";
+
+      if (!label || !key) return;
+      if (CATEGORIES_META.some(c => c.key.toLowerCase() === key.toLowerCase())) {
+        showAdminSavedToast("⚠️ এই Category Key আগে থেকেই আছে!");
+        return;
+      }
+
+      const gradients = [
+        "from-blue-600 to-indigo-700", "from-emerald-600 to-teal-700",
+        "from-amber-500 to-orange-600", "from-rose-500 to-pink-600", "from-violet-600 to-purple-800"
+      ];
+      const color = gradients[CATEGORIES_META.length % gradients.length];
+
+      CATEGORIES_META.push({ key, label, icon, color, avgPay });
+      persistAllCmsState();
+      refreshAllSiteViews();
+      e.target.reset();
+      document.getElementById("admCatIcon").value = "🛡️";
+      document.getElementById("admCatPay").value = "$22.00–$30.00/hr";
+      showAdminSavedToast("✓ নতুন ক্যাটাগরি সফলভাবে যুক্ত হয়েছে!");
+    }
+
+    function handleAdminDeleteCategory(catKey) {
+      if (CATEGORIES_META.length <= 1) return;
+      CATEGORIES_META = CATEGORIES_META.filter(c => c.key !== catKey);
+      persistAllCmsState();
+      refreshAllSiteViews();
+      showAdminSavedToast("🗑️ ক্যাটাগরিটি মুছে ফেলা হয়েছে!");
+    }
+
+    // --- Admin Tab 3: Fast Link Manager ---
+    function renderAdminFastLinksList() {
+      const container = document.getElementById("individualJobLinksContainer");
+      if (!container) return;
       container.innerHTML = JOBS_DATA.map((job, idx) => `
-        <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center gap-2.5">
+        <div class="p-3.5 rounded-2xl bg-white border border-slate-200 flex flex-col sm:flex-row sm:items-center gap-2.5">
           <div class="sm:w-5/12">
             <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-blue-100 text-blue-800">#${idx + 1} • ${job.category}</span>
             <p class="text-xs font-extrabold text-slate-900 mt-1">${job.title}</p>
           </div>
           <div class="sm:w-7/12">
-            <input type="url" data-job-link-id="${job.id}" value="${job.applyLink}" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium bg-white focus:outline-none focus:border-blue-600" />
+            <input type="url" data-job-link-id="${job.id}" value="${job.applyLink}" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium bg-slate-50 focus:bg-white focus:outline-none focus:border-blue-600" />
           </div>
         </div>
       `).join("");
+    }
 
+    function openLinkManagerModal() {
+      const modal = document.getElementById("linkManagerModal");
+      if (!modal) return;
+      const creds = getAdminCredentials();
+      const uInp = document.getElementById("admNewUsername");
+      const pInp = document.getElementById("admNewPassword");
+      if (uInp) uInp.value = creds.user;
+      if (pInp) pInp.value = creds.pass;
+
+      populateCategorySelects();
+      resetAdminJobForm();
+      renderAdminJobsTable();
+      renderAdminCategoriesList();
+      renderAdminFastLinksList();
       modal.classList.remove("hidden");
     }
 
@@ -2243,6 +2966,14 @@
       document.querySelectorAll("[data-job-link-id]").forEach(inp => {
         inp.value = bulkUrl;
       });
+      JOBS_DATA.forEach(j => { j.applyLink = bulkUrl; });
+      if (window.ADSTERRA_CONFIG) {
+        window.ADSTERRA_CONFIG.smartlink = bulkUrl;
+        document.querySelectorAll("[data-smartlink='true']").forEach(a => a.setAttribute("href", bulkUrl));
+      }
+      persistAllCmsState();
+      refreshAllSiteViews();
+      showAdminSavedToast("✓ সবগুলো জবে একই লিংক সেট করা হয়েছে!");
     }
 
     function saveAllCustomJobLinks() {
@@ -2265,36 +2996,42 @@
         });
       }
 
+      persistAllCmsState();
+      refreshAllSiteViews();
+      showAdminSavedToast("✓ সব পরিবর্তন সাথে সাথে সেভ হয়ে গেছে!");
+    }
+
+    // --- Admin Tab 4: Password Update & Factory Reset ---
+    function handleAdminPasswordChange(e) {
+      e.preventDefault();
+      const user = (document.getElementById("admNewUsername")?.value || "").trim();
+      const pass = (document.getElementById("admNewPassword")?.value || "").trim();
+      if (!user || !pass) return;
       try {
-        localStorage.setItem("us_careers_custom_job_links_v1", JSON.stringify(map));
-        if (bulkUrl) localStorage.setItem("us_careers_custom_smartlink_v1", bulkUrl);
+        localStorage.setItem("us_careers_admin_creds_v1", JSON.stringify({ user, pass }));
+      } catch (err) {}
+      showAdminSavedToast("✓ নতুন Admin Username ও Password সেভ হয়েছে!");
+    }
+
+    function resetAllCmsDataToDefaults() {
+      CATEGORIES_META = JSON.parse(JSON.stringify(window.INITIAL_CATEGORIES_META));
+      JOBS_DATA = JSON.parse(JSON.stringify(window.INITIAL_JOBS_DATA));
+      try {
+        localStorage.removeItem("us_careers_cms_categories_v2");
+        localStorage.removeItem("us_careers_cms_jobs_v2");
+        localStorage.removeItem("us_careers_custom_job_links_v1");
       } catch (e) {}
-
-      renderHomeCategories();
-      renderHomeFeaturedJobs();
-      renderAllJobsPage();
-      renderPartnerSections();
-
-      const toast = document.getElementById("linkSaveToast");
-      if (toast) {
-        toast.classList.remove("hidden");
-        setTimeout(() => {
-          toast.classList.add("hidden");
-          closeLinkManagerModal();
-        }, 800);
-      } else {
-        closeLinkManagerModal();
-      }
+      refreshAllSiteViews();
+      showAdminSavedToast("♻️ ডিফল্ট ৩৪টি জব ও ১৯টি ক্যাটাগরি রিস্টোর হয়েছে!");
     }
 
     window.addEventListener("keydown", (e) => {
       const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : "";
       if (tag !== "input" && tag !== "textarea" && tag !== "select" && e.shiftKey && (e.key === "A" || e.key === "a")) {
         e.preventDefault();
-        openLinkManagerModal();
+        openAdminPortal();
       }
     });
-    
   </script>
 </body>
 </html>
